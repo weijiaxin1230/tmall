@@ -8,9 +8,10 @@
     font-weight:100;
     font-size:12px;
     float:left;
+    margin-left:40px;
 }
 #login-contain a{
-    padding-left: 20px;
+    padding-left:20px;
     color:#999999;
 }
 #login-contain a:hover{
@@ -458,4 +459,66 @@ ul{
 }
 #top ul li a:hover{
     text-decoration:underline;
+}
+#leftt{
+    float:left;
+    position:relative;
+}
+#leftt img{
+    width:235px;
+    height:618px;
+}
+#leftt .hei{
+    width:70px;
+    height:64px;
+    background: rgba(0,0,0,0.7);
+    float:left;
+    position:absolute;
+    left:0;
+    top:400px;
+    z-index:1;
+    line-height:32px;
+}
+#leftt .hei span{
+    display:block;
+    width:36px;
+    height:48px;
+    font-size:18px;
+    color: #FFFFFF;
+    margin:0 auto;
+}
+#leftt .hui{
+    width:128px;
+    height:64px;
+    background: rgba(0,0,0,0.4);
+    float:left;
+    position:absolute;
+    left:70px;
+    top:400px;
+    z-index:1;
+    line-height:32px;
+}
+#leftt .hui span{
+    display:block;
+    width:78px;
+    height:48px;
+    font-size:18px;
+    color: #FFFFFF;
+    margin:0 auto;
+}
+#leftt .tu{
+    width:32px;
+    height:32px;
+    float:left;
+    position:absolute;
+    right:20px;
+    bottom:20px;
+}
+#leftt .tu img{
+    width:32px;
+    height:32px;
+    color:#ffffff;
+}
+#leftt:hover img{
+    opacity:0.8;
 }
